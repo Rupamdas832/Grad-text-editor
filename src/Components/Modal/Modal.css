@@ -8,6 +8,7 @@
   position: absolute;
   z-index: var(--z-index2);
   opacity: 90%;
+  position: relative;
 }
 
 .modal-box {

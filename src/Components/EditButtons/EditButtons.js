@@ -34,7 +34,7 @@ export const EditButtons = ({ editor }) => {
   }
 
   return (
-    <div className="edit-buttons">
+    <div className="edit-buttons-div">
       {isModalOpen && (
         <LinkModal setIsModalOpen={setIsModalOpen} setLink={addLink} />
       )}
