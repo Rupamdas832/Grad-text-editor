@@ -6,6 +6,10 @@ This is a simple rich text editor with a meme converter feature
 
 https://grad-text-editor.netlify.app/
 
+## Demo video
+
+https://user-images.githubusercontent.com/64453669/127568988-1a3616c1-ff8e-4b40-b814-06ee026da832.mp4
+
 ### Features
 
 -Bold
