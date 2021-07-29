@@ -4,6 +4,8 @@
   --black: rgb(0, 0, 0);
   --z-index1: 1;
   --z-index2: 2;
+  --z-index3: 3;
+  --z-index4: 4;
 }
 
 .App {

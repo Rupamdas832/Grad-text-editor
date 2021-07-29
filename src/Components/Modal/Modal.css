@@ -1,14 +1,11 @@
 .modal {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(70, 70, 70);
   display: flex;
   flex-direction: column;
   align-items: center;
   position: absolute;
-  z-index: var(--z-index2);
-  opacity: 90%;
-  position: relative;
+  z-index: var(--z-index3);
 }
 
 .modal-box {
@@ -18,6 +15,8 @@
   padding: 2rem;
   border-radius: 5px;
   background-color: white;
+  z-index: var(--z-index4);
+  border: 1px solid var(--black);
 }
 .modal-box input {
   width: 100%;
