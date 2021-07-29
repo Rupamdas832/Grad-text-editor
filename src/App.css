@@ -1,5 +1,7 @@
 :root {
   --blue: rgb(0, 209, 209);
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
   --z-index1: 1;
   --z-index2: 2;
 }

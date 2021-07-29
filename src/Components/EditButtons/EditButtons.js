@@ -7,9 +7,6 @@ import { LinkModal } from "../Modal/LinkModal";
 export const EditButtons = ({ editor }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
-  if (!editor) {
-    return null;
-  }
 
   const addLink = (text) => {
     if (text) {
@@ -29,6 +26,10 @@ export const EditButtons = ({ editor }) => {
       setIsImageModalOpen(false);
     }
   };
+
+  if (!editor) {
+    return null;
+  }
 
   return (
     <div className="edit-buttons">

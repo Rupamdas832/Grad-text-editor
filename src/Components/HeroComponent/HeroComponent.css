@@ -4,6 +4,10 @@
   position: relative;
 }
 
+.text-area {
+  width: 60vw;
+}
+
 .ProseMirror p.is-editor-empty:first-child::before {
   content: "Enter your thoughts...";
   float: left;
