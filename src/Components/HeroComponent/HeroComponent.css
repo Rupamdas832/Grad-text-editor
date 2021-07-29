@@ -1,0 +1,17 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: "Enter your thoughts...";
+  float: left;
+  color: #808080;
+  pointer-events: none;
+  height: 0;
+}
+
+.ProseMirror:focus {
+  outline: none;
+}

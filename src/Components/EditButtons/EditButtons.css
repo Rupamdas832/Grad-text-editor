@@ -1,0 +1,30 @@
+.edit-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem 0;
+  font-size: 1.3rem;
+}
+
+.not-active {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  padding: 0.5rem;
+  border: 1px solid black;
+  margin: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.is-active {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  padding: 0.5rem;
+  border: 1px solid black;
+  margin: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: var(--blue);
+}
