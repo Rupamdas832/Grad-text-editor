@@ -4,7 +4,7 @@ This is a simple rich text editor with a meme converter feature
 
 ## Live Link
 
-https://gradtext.netlify.app/
+https://grad-text-editor.netlify.app/
 
 ### Features
 
