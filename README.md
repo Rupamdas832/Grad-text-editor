@@ -4,15 +4,20 @@ This is a simple rich text editor with a meme converter feature
 
 ## Live Link
 
-www.gradtext.netlify.in
+https://gradtext.netlify.app/
 
 ### Features
 
 -Bold
+
 -Italic
+
 -Underline
+
 -Add link
--Add image using url link
+
+-Add image using url
+
 -Meme converter
 
 ### How to use

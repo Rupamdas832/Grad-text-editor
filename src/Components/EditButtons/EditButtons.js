@@ -8,6 +8,7 @@ export const EditButtons = ({ editor }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
 
+  //Handler to add link to a text
   const addLink = (text) => {
     if (text) {
       editor
@@ -20,6 +21,7 @@ export const EditButtons = ({ editor }) => {
     }
   };
 
+  //Handler to add image to editor
   const addImage = (text) => {
     if (text) {
       editor.chain().focus().setImage({ src: text }).run();
@@ -60,6 +62,7 @@ export const EditButtons = ({ editor }) => {
       <button onClick={() => setIsModalOpen(true)} className="not-active">
         <AiOutlineLink />
       </button>
+      {/*Button to remove link */}
       {editor.isActive("link") && (
         <button
           onClick={() => editor.chain().focus().unsetLink().run()}
