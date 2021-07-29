@@ -20,7 +20,6 @@ export const MemeButton = ({ editor }) => {
       if (status === 200) {
         //Remove the content
         editorContent = "";
-
         //Append to Editor content
         editorContent += `<img src="${data[0].images.downsized_medium.url}"/>`;
         editor.commands.setContent(editorContent);
